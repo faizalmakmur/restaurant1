@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .clearfix {
+    float: none;
+    clear: both;
+  }
+  
+  .tbl-full {
+    width: 100%;
+  }
+  .tbl-30 {
+    width: 30%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+  }
+  
+  table tr td {
+    padding: 1%;
+  }
+  
+  .btn-primary {
+    background-color: #af3fa9;
+    padding: 1%;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn-primary:hover {
+    background-color: #4e1149;
+  }
+  
+  .btn-secondary {
+    background-color: #3F72AF;
+    padding: 3%;
+    color: #E4F9F5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn-secondary:hover {
+    background-color: #112D4E;
+  }
+  
+  .btn-danger {
+    background-color: #af3f3f;
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn-danger:hover {
+    background-color: #4e1111;
+  }
+  
+  .success {
+    color: #2ed573;
+  }
+  .error {
+    color: #ff0000;
+  }
+  
+  /* CSS for Menu */
+  .menu {
+    border-bottom: 1px solid #393E46;
+  }
+  .menu ul {
+    list-style-type: none;
+  }
+  .menu ul li {
+    display: inline;
+    padding: 1%;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00ADB5;
+  }
+  .menu ul li a:hover {
+    color: #008086;
+  }
+  
+  /* CSS for main-content */
+  .main-content {
+    background-color: #EEEEEE;
+    padding: 3% 0;
+  }
+  
+  .col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+  }
+  
+  /* CSS for Footer */
+  .footer {
+    background-color: #393E46;
+    color: white;
+  }
+  
+  /* CSS for Login */
+  .login {
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+  }
+  
+  
